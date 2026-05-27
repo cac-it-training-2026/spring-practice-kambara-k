@@ -10,5 +10,4 @@ public class Practice0101Controller {
 	public String opening() {
 		return "opening";
 	}
-
 }
