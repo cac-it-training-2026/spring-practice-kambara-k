@@ -37,18 +37,18 @@ public class FruitsSeasonBean {
 	}
 
 	/**
-	 * @return seasonMonths
+	 * @return seasonMonth
 	 */
 	public Integer getSeasonMonth() {
 		return seasonMonth;
 	}
 
 	/**
-	 * @param seasonMonths
+	 * @param seasonMonth
 	 *            セットする seasonMonths
 	 */
-	public void setSeasonMonth(Integer seasonMonths) {
-		this.seasonMonth = seasonMonths;
+	public void setSeasonMonth(Integer seasonMonth) {
+		this.seasonMonth = seasonMonth;
 	}
 
 }

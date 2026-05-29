@@ -16,4 +16,7 @@ public interface FruitsSeasonRepository extends JpaRepository<FruitsSeason, Inte
 	// fruit_id 列で並べ替え
 	List<FruitsSeason> findAllByOrderByFruitId();
 
+	// season_month 列で絞込検索、fruit_id 列で並べ替え
+	List<FruitsSeason> findBySeasonMonthOrderByFruitId(Integer seasonMonth);
+
 }
