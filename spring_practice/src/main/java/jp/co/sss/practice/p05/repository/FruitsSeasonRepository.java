@@ -10,6 +10,10 @@ import jp.co.sss.practice.p05.entity.FruitsSeason;
 @Repository
 public interface FruitsSeasonRepository extends JpaRepository<FruitsSeason, Integer> {
 
+	// season_month 列で並べ替え
 	List<FruitsSeason> findAllByOrderBySeasonMonth();
+
+	// fruit_id 列で並べ替え
+	List<FruitsSeason> findAllByOrderByFruitId();
 
 }
