@@ -14,7 +14,7 @@ public class FruitsSeason {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_fruits_season")
-	@SequenceGenerator(name = "seq_fruits_season", sequenceName = "seq_fruits", allocationSize = 1)
+	@SequenceGenerator(name = "seq_fruits_season", sequenceName = "seq_fruits_season", allocationSize = 1)
 	private Integer fruitId;
 
 	@Column
